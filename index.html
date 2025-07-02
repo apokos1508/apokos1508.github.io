@@ -32,6 +32,16 @@
             aspect-ratio: 16 / 9;
             object-fit: cover;
         }
+        
+        .gumb {
+            display: inline-block;
+            padding: 8px 16px;
+            color: white;
+            background-color: chocolate;
+            font-weight: normal;
+            margin-bottom: 8px;
+            
+        }
     </style>
     <!--padding ispuna razdvaja sadržaj od elementa, a margina elemente-->
 </head>
@@ -51,18 +61,20 @@
              </section>
              <section>
                   <h2>Contact me</h2>
-                    <a href="mailto:contactme@email.com">E-mail</a><br>
-                    <a href="tel:+385912345678">Phone</a><br>
-                    <a href="https//:linkedin.com">LinkedIn</a><br>
+                    <a href="mailto:contactme@email.com" class="gumb">E-mail</a><br>
+                    <a href="tel:+385912345678" class="gumb">Phone</a><br>
+                    <a href="https://www.linkedin.com/" class="gumb" target="_blank">LinkedIn</a><br>
             </section>
             <section>
                 <h2>Projects</h2>
                 <ul>
                     <li>
-                        <img src="Media/apokos1508.github.io_algebra_company_.png" alt="company">Company website
+                       <div><img src="Media/apokos1508.github.io_algebra_company_.png" alt="company"></div>
+                       <div>Website</div>
                     </li>
                     <li>
-                        <img src="Media/apokos1508.github.io_algebra-search_.png" alt=search>Search website
+                       <div><img src="Media/apokos1508.github.io_algebra-search_.png" alt=search></div>
+                       <div>Search</div>
                     </li>
                     
                 </ul>
