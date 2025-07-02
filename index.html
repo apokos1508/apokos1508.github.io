@@ -7,36 +7,50 @@
     <style> 
         body {
             background-color: rgb(63, 182, 63);
-            color:azure ;
+            color:rgb(4, 0, 250) ;
             font-family: serif;
         }
         a {
             color: rgb(78, 44, 156);
-            background-color: rgb(228, 179, 17);
+        }
+        section {
+            background-color: rgb(79, 192, 79);
+            padding-left: 16px;
+            padding-right: 16px;
+            padding-top: 16px;
+            padding-top: 16px;
+            margin-top: 16px;
+            margin-bottom: 16px;
+        }
+        main {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 768px;
         }
     </style>
+    <!--padding ispuna razdvaja sadržaj od elementa, a margina elemente-->
 </head>
     <body>
-         <h1>About me</h1>
-         <p>My name is <strong>Antonio</strong> and I am <strong>frontend developer</strong> from Koprivnica, Croatia</p><!--naglasiti neke bitne rečenice-->
-         <p>My skills include:</p>
-         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li><strong>React</strong></li>
-            <li>Git</li>
-         </ul>
-         <h2>Contact me</h2>
-         <div>
-            <a href="mailto:contactme@email.com">E-mail</a>
-         </div>
-         <div>
-            <a href="tel:+385912345678">Phone</a>
-         </div>
-         <div>
-            <a href="https:linkedin.com">LinkedIn</a>
-         </div>
+         <main>
+             <section>
+                 <h1>About me</h1>
+                 <p>My name is <strong>Antonio</strong> and I am <strong>frontend developer</strong> from Koprivnica, Croatia</p><!--naglasiti neke bitne rečenice-->
+                 <p>My skills include:</p>
+                     <ul>
+                         <li>HTML</li>
+                         <li>CSS</li>
+                         <li>JavaScript</li>
+                         <li><strong>React</strong></li>
+                         <li>Git</li>
+                     </ul>
+             </section>
+             <section>
+                  <h2>Contact me</h2>
+                    <a href="mailto:contactme@email.com">E-mail</a>
+                    <a href="tel:+385912345678">Phone</a>
+                    <a href="https:linkedin.com">LinkedIn</a>
+            </section>
+         </main>
 
     </body>
 </html>
